@@ -1,0 +1,45 @@
+body{
+    background-image:url('../assets/img/bg-scratch.jpg');
+   background-attachment: fixed;
+    background-size: cover;
+    color: black;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    border: 4px dotted beige;
+    padding: 2px;
+    width: 500px;
+}
+.centerme{
+    display: block;
+    margin: auto;
+}
+a{
+    color: purple;
+}
+h1{
+    text-align: center;
+}
+ol{
+    display: inline-block;
+}
+.common{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    top: 0px;
+}
+.mainbody{
+    font-size: large;
+}
+.footer{
+    bottom: 0px;
+    z-index: 1;
+    position: fixed;
+    display: block;
+    text-align: center;
+    background-color:white;
+    right: 0px;
+    left: 0px;
+}
